@@ -20,7 +20,16 @@ ul li {
     margin-left: auto;
     list-style-type: none;
 }
+.LinkedIn {
+    display: inline-block
+}
+.Behance {
+    display: inline-block;
+}
+.Github {
+    display: inline-block;
 
+}
 
 .HeroImg {
     height: 600px;
