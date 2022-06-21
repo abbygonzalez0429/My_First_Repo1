@@ -1,0 +1,65 @@
+.inline-block {
+    display: inline-block;
+    vertical-align: top;
+}
+.logo {
+    width: 23%;
+    padding: 1%;
+    text-align: center;
+    width: 450px;
+    height: 253px;
+
+}
+.navigation {
+    display: flex;
+}
+
+ul li { 
+    display: inline;
+    width: 50%;
+    margin-left: auto;
+    list-style-type: none;
+}
+
+
+.HeroImg {
+    height: 600px;
+    padding: 25px;
+}
+.gridContainer {
+   display: inline-grid;
+   column-gap: 50px;
+   row-gap: 50px;
+}
+
+.square {
+    display: inline-block;
+    margin: 15px;
+    height: 400px;
+    width: 400px;
+}
+.rectangle {
+    display: inline-block;
+    margin: 15px;
+    height: 90px;
+    width: 1440px;
+    vertical-align: bottom;
+}
+.HanBlue {
+    background-color: #586BCF;
+  }
+  .Bubblegum {
+    background-color: #F89FEA;
+  }
+  .Amazon {
+      background-color: #3E824B;
+  }
+  .Strawberry {
+      background-color: #E66B6B;
+  }
+  .Tangerine {
+    background-color: #F49A67;
+  }
+  .TangerineLight {
+      background-color: rgba(244, 154, 103, .3)
+  }
