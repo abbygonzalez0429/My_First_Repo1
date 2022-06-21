@@ -3,8 +3,6 @@
     vertical-align: top;
 }
 .logo {
-    width: 23%;
-    padding: 1%;
     text-align: center;
     width: 450px;
     height: 253px;
@@ -12,6 +10,7 @@
 }
 .navigation {
     display: flex;
+
 }
 
 ul li { 
@@ -21,7 +20,7 @@ ul li {
     list-style-type: none;
 }
 .LinkedIn {
-    display: inline-block
+    display: inline-block;
 }
 .Behance {
     display: inline-block;
@@ -30,7 +29,6 @@ ul li {
     display: inline-block;
 
 }
-
 .HeroImg {
     height: 600px;
     padding: 25px;
@@ -39,17 +37,16 @@ ul li {
    display: inline-grid;
    column-gap: 50px;
    row-gap: 50px;
+   padding:15px;
 }
 
 .square {
     display: inline-block;
-    margin: 15px;
     height: 400px;
     width: 400px;
 }
 .rectangle {
     display: inline-block;
-    margin: 15px;
     height: 90px;
     width: 1440px;
     vertical-align: bottom;
