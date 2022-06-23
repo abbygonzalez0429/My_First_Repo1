@@ -1,6 +1,5 @@
 nav {
     display: flex;
-    align-items: flex-start;
     margin: 15px;
 }
 
@@ -10,6 +9,7 @@ nav {
     color: #3E824B;
     letter-spacing: 3px;
     padding: 16px 32px;
+    align-items: center;
 }
 
 .inline-block {
@@ -34,7 +34,8 @@ ul li {
     height: 60px;
     padding: 10px;
 }
-.HeroImg {
+.Hero-section {
+    align-items: center;
     height: 600px;
     padding: 25px;
 }
@@ -50,11 +51,18 @@ ul li {
     height: 400px;
     width: 400px;
 }
+.footerContainer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: black;
+    text-align: center;
+}
 .rectangle {
-    display: inline-block;
     height: 90px;
     width: 1440px;
-    vertical-align: bottom;
+    text-align: center;
 }
 .HanBlue {
     background-color: #586BCF;
