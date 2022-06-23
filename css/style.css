@@ -1,16 +1,25 @@
+nav {
+    display: flex;
+    align-items: flex-start;
+    margin: 15px;
+}
+
+.nav-item {
+    font-family:'Poppins', 'Arial', sans-serif;
+    font-size: 36px;
+    color: #3E824B;
+    letter-spacing: 3px;
+    padding: 16px 32px;
+}
+
 .inline-block {
     display: inline-block;
     vertical-align: top;
 }
-.logo {
-    text-align: center;
+.Main-Logo {
+    display: flex;
     width: 450px;
     height: 253px;
-
-}
-.navigation {
-    display: flex;
-
 }
 
 ul li { 
@@ -19,15 +28,11 @@ ul li {
     margin-left: auto;
     list-style-type: none;
 }
-.LinkedIn {
-    display: inline-block;
-}
-.Behance {
-    display: inline-block;
-}
-.Github {
-    display: inline-block;
-
+.social-logo {
+    display: flex;
+    width: 60px;
+    height: 60px;
+    padding: 10px;
 }
 .HeroImg {
     height: 600px;
