@@ -1,6 +1,8 @@
 nav {
     display: flex;
-    margin: 15px;
+    padding: 5px;
+    align-items: center;
+    justify-content: center;
 }
 
 .nav-item {
@@ -16,10 +18,12 @@ nav {
     display: inline-block;
     vertical-align: top;
 }
+    
 .Main-Logo {
     display: flex;
     width: 450px;
     height: 253px;
+    justify-content: center;
 }
 
 ul li { 
@@ -30,13 +34,14 @@ ul li {
 }
 .social-logo {
     display: flex;
-    width: 60px;
-    height: 60px;
+    width: 50px;
+    height: 50px;
     padding: 10px;
 }
 .Hero-section {
     align-items: center;
-    height: 600px;
+    justify-content: center;
+    height: 900px;
     padding: 25px;
 }
 .gridContainer {
@@ -48,21 +53,20 @@ ul li {
 
 .square {
     display: inline-block;
-    height: 400px;
-    width: 400px;
+    height: 420px;
+    width: 420px;
 }
 .footerContainer {
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    color: black;
-    text-align: center;
-}
-.rectangle {
-    height: 90px;
-    width: 1440px;
-    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgba(244, 154, 103, .3);
+    padding: 15px;
+    font-family: 'Poppins', 'Arial', sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    color: #3E824B;
 }
 .HanBlue {
     background-color: #586BCF;
@@ -78,7 +82,4 @@ ul li {
   }
   .Tangerine {
     background-color: #F49A67;
-  }
-  .TangerineLight {
-      background-color: rgba(244, 154, 103, .3)
   }
